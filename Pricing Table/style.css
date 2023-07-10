@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  margin: 55px 10%;
+  display: flex;
+  justify-content: center;
+}
+.container > * {
+  margin: 0px 10px;
+}
+.head-text {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.main-cart {
+  font-family: sans-serif;
+  width: 300px;
+}
+.price-head {
+  background: #3f28ab;
+  color: white;
+  height: 150px;
+  padding: 30px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 25px;
+}
+.price-label {
+  display: flex;
+  align-items: center;
+}
+.price-label > p {
+  margin-left: 15px;
+  margin-top: -10px;
+}
+.price-label > h1 {
+  margin-top: -10px;
+}
+.icon-div {
+  width: 50px;
+  height: 50px;
+  position: relative;
+  left: 35px;
+  bottom: 70px;
+  z-index: 999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  border-radius: 10px;
+  color: #3f28ab;
+  box-shadow: 1px 2px 5px;
+  font-size: 30px;
+}
+.list-sec {
+  background: white;
+  display: flex;
+  flex-direction: column;
+  width: 270px;
+  height: 320px;
+  justify-content: center;
+  border: 1px solid lightgrey;
+  position: relative;
+  bottom: 105px;
+  z-index: 111;
+  border-radius: 25px;
+  margin: auto;
+}
+.list-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.list-item > i {
+  color: green;
+  font-size: 25px;
+}
+.list-sec > button {
+  margin-top: 25px;
+  width: 200px;
+  border: 2px solid #3f28ab;
+  font-size: 18px;
+  font-family: sans-serif;
+  margin-left: 25px;
+  padding: 10px 0px;
+  color: #3f28ab;
+  background: white;
+  border-radius: 25px;
+  cursor: pointer;
+}
