@@ -1,0 +1,76 @@
+body {
+  background-image: linear-gradient(90deg, #73b3e3, #9b5ab6);
+  height: 98vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+}
+.container {
+  height: 650px;
+  width: 700px;
+  background: whitesmoke;
+  border-radius: 5px;
+}
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 60px;
+}
+.form-title {
+  margin-left: 35px;
+}
+.form-title::before {
+  content: "";
+  display: block;
+  width: 38px;
+  height: 5px;
+  background: linear-gradient(90deg, #73b3e3, #9b5ab6);
+  position: relative;
+  top: 60px;
+}
+.first-part > input,
+.second-part > input {
+  display: block;
+  width: 250px;
+  margin: 5px 35px 35px 35px;
+  padding: 10px;
+  font-size: 16px;
+  border: 0.5px solid lightgray;
+  border-radius: 5px;
+}
+.first-part > label,
+.second-part > label {
+  margin: 0px 35px;
+  font-weight: 600;
+}
+.gender-pick {
+  display: flex;
+  justify-content: space-around;
+}
+.gender-title {
+  margin-left: 45px;
+}
+
+.gender-item > label {
+  margin-left: 15px;
+}
+.btn {
+  height: 120px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn > button {
+  color: red;
+  width: 600px;
+  padding: 10px 0px;
+  background: linear-gradient(90deg, #73b3e3, #9b5ab6);
+  color: white;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

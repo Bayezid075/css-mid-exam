@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Registration</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="form-title">
+        <h1>Registration</h1>
+      </div>
+      <div class="form">
+        <div class="first-part">
+          <label for="name"> Full Name </label>
+          <input type="text" id="name" placeholder="Enter Your Name" />
+
+          <label for="email"> Email </label>
+          <input type="email" id="email" placeholder="Enter Your Email" />
+
+          <label for="password"> Password </label>
+          <input
+            type="password"
+            id="password"
+            placeholder="Enter Your Password"
+          />
+        </div>
+
+        <div class="second-part">
+          <label for="username"> Username </label>
+          <input type="text" id="username" placeholder="Enter Your Username" />
+
+          <label for="phoneNumber"> Phone Number </label>
+          <input
+            type="text"
+            id="phoneNumber"
+            placeholder="Enter Your Phone Number"
+          />
+
+          <label for="conpass"> Confirm Password </label>
+          <input type="password" id="conpass" placeholder="Confirm Password" />
+        </div>
+      </div>
+      <div class="gender-sec">
+        <div class="gender-title">
+          <h1>Gender</h1>
+        </div>
+        <div class="gender-pick">
+          <div class="gender-item">
+            <input type="radio" value="Male" id="male" />
+            <label for="male">Male</label>
+          </div>
+
+          <div class="gender-item">
+            <input type="radio" value="female" id="female" />
+            <label for="female">Female</label>
+          </div>
+
+          <div class="gender-item">
+            <input
+              type="radio"
+              value="Not interested to say"
+              id="notInterested"
+            />
+            <label for="notInterested">Not interested to say</label>
+          </div>
+        </div>
+      </div>
+      <div class="btn">
+        <button>Register</button>
+      </div>
+    </div>
+  </body>
+</html>
